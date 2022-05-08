@@ -31,12 +31,15 @@ h1 {
 	height: 3rem;
 	margin: 0 0.2rem;
 	font-size: 1.5rem;
-	border: 2px solid #2b282a;
+	border: 0;
+	outline: 0;
 	border-radius: 0.7rem;
 	cursor: pointer;
 	font-family: inherit;
 }
-
+.btn:active {
+	transform: scale(0.98);
+}
 .row {
 	margin: 0.5rem 0;
 	display: flex;
