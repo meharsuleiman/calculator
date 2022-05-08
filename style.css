@@ -36,11 +36,7 @@ h1 {
 	cursor: pointer;
 	font-family: inherit;
 }
-.btn:focus {
-	border: 0;
-	outline: none;
-	transform: scale(5px);
-}
+
 .row {
 	margin: 0.5rem 0;
 	display: flex;
